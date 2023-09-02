@@ -58,6 +58,9 @@ body {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
   font-size: 25px;
 }
-#reset{
+.reset{
   text-align: center;
+}
+#reset{
+  
 }
