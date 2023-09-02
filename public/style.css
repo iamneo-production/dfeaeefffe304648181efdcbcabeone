@@ -45,6 +45,9 @@ body {
   color: black;
   cursor: no-drop;
 }
-#reset{
-  
+.result-container{
+  color: white;
+  opacity: 50%;
+  margin: 0 auto;
+  text-align: center;
 }
