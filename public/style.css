@@ -34,9 +34,17 @@ body {
   font-size: 50px;
   font-weight: 500;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
-  background-color: white;
+  background-color:azure;
   opacity: 50%;
 }
 .btn:hover{
-  color: ;
+  background-color:white ;
+  cursor: pointer;
+}
+.btn:disabled{
+  color: black;
+  cursor: no-drop;
+}
+#reset{
+  
 }
