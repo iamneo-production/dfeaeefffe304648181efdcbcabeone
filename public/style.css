@@ -63,4 +63,9 @@ body {
 }
 #reset{
   border: 1px solid black;
+  color:antiquewhite;
+}
+#reset:hover{
+  color: white;
+  background-color: black;
 }
