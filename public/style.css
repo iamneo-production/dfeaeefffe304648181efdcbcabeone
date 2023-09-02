@@ -8,12 +8,18 @@ body {
     background-position: center center;
     font-family: "Radio Canada", sans-serif;
   }
-.box{
-  width:75px;
-  height: 75px;
-  border:2px solid;
+#header{
+  text-align: center;
+  color: white;
+  text-shadow: 1px;
+  font-size: 50px;
 }
-.container{
+#box{
+  display: flex;
+  justify-content:center;
+  flex-direction: column;
+}
+.row{
   display:grid;
   grid-template-columns: repeat(3,auto);
   width:225px;
