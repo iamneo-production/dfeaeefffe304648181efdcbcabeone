@@ -46,8 +46,18 @@ body {
   cursor: no-drop;
 }
 .result-container{
-  color: white;
+  background-color: white;
   opacity: 50%;
   margin: 0 auto;
+  text-align: center;
+  max-width: 200px;
+}
+.result{
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  font-size: 25px;
+}
+#reset{
   text-align: center;
 }
