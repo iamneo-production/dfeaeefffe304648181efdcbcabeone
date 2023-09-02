@@ -9,19 +9,24 @@
 </head>
 <body>
   <div>
-  <h1>Tic Tac Toe</h1>
-  <div id="container">
-    <div class = "row"><input type="text"></div>
-    <div class = "row"><input type="text"></div>
-    <div class = "row"><input type="text"></div>
-    <div class = "row"><input type="text"></div>
-    <div class = "row"><input type="text"></div>
-    <div class = "row"><input type="text"></div>
-    <div class = "row"><input type="text"></div>
-    <div class = "row"><input type="text"></div>
-    <div class = "row"><input type="text"></div>
+  <h1 id="header">Tic Tac Toe</h1>
+  <div id="box">
+    <div class = "row">
+      <input type="text" class="btn">
+      <input type="text" class="btn">
+      <input type="text" class="btn"></div>
+    <div class = "row">
+      <input type="text" class="btn">
+      <input type="text" class="btn">
+      <input type="text" class="btn"></div>
+    <div class = "row">
+      <input type="text" class="btn">
+      <input type="text" class="btn">
+      <input type="text" class="btn"></div>
   </div>
-  <h2 id="statusText"></h2>
+  <div class="result-container">
+    <p class="result"></p>
+  </div>
   <button id="resetbtn">Restart</button>
 </div>
   <script src="app.js"></script>
