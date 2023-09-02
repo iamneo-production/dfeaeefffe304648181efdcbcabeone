@@ -45,7 +45,7 @@ body {
   cursor: no-drop;
 }
 .result-container {
-  background-color: white;
+  background-color:darkgray;
   opacity: 50%;
   margin: 0 auto;
   text-align: center;
