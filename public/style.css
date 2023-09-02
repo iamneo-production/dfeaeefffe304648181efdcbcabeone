@@ -8,3 +8,11 @@ body {
     background-position: center center;
     font-family: "Radio Canada", sans-serif;
   }
+.box{
+  width:75px;
+  height: 75px;
+  border:2px solid;
+}
+.container{
+  
+}
